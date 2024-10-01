@@ -1,11 +1,11 @@
 <?php
 
-namespace Scaffolding\ExceptionReporter\Tests\Unit;
+namespace Scaffolding\ExceptionMonitor\Tests\Unit;
 
 use Throwable;
 use Illuminate\Support\Facades\Http;
-use Scaffolding\ExceptionReporter\Tests\TestCase;
-use Scaffolding\ExceptionReporter\ExceptionMonitor;
+use Scaffolding\ExceptionMonitor\Tests\TestCase;
+use Scaffolding\ExceptionMonitor\ExceptionMonitor;
 
 class ExceptionMonitorTest extends TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Scaffolding\ExceptionReporter\Providers;
+namespace Scaffolding\ExceptionMonitor\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Scaffolding\ExceptionReporter\ExceptionMonitor;
+use Scaffolding\ExceptionMonitor\ExceptionMonitor;
 
 class ExceptionMonitorServiceProvider extends ServiceProvider
 {

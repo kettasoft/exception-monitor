@@ -1,9 +1,9 @@
 <?php
 
-namespace Scaffolding\ExceptionReporter;
+namespace Scaffolding\ExceptionMonitor;
 
 use Throwable;
-use Scaffolding\ExceptionReporter\SlackErrorReporter;
+use Scaffolding\ExceptionMonitor\SlackErrorReporter;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
 class ExceptionMonitor extends ExceptionHandler

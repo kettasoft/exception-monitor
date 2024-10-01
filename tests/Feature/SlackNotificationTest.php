@@ -1,12 +1,12 @@
 <?php
 
-namespace Scaffolding\ExceptionReporter\Tests\Feature;
+namespace Scaffolding\ExceptionMonitor\Tests\Feature;
 
 use Exception;
 use Throwable;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Foundation\Exceptions\Handler;
-use Scaffolding\ExceptionReporter\Tests\TestCase;
+use Scaffolding\ExceptionMonitor\Tests\TestCase;
 
 class SlackNotificationTest extends TestCase
 {

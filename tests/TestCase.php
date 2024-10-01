@@ -1,9 +1,9 @@
 <?php
 
-namespace Scaffolding\ExceptionReporter\Tests;
+namespace Scaffolding\ExceptionMonitor\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Scaffolding\ExceptionReporter\Providers\ExceptionMonitorServiceProvider;
+use Scaffolding\ExceptionMonitor\Providers\ExceptionMonitorServiceProvider;
 
 class TestCase extends Orchestra
 {

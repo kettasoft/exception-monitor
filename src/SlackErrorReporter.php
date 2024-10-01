@@ -1,6 +1,6 @@
 <?php
 
-namespace Scaffolding\ExceptionReporter;
+namespace Scaffolding\ExceptionMonitor;
 
 use Throwable;
 use Illuminate\Support\Facades\Log;
