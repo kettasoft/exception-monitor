@@ -27,7 +27,7 @@ To install the **Laravel Exception Monitor** package, follow these steps:
 After installation, you need to publish the configuration file using the following command:
 
    ```dash
-   php artisan vendor:publish --provider="YourNamespace\ExceptionMonitor\ExceptionMonitorServiceProvider"
+   php artisan vendor:publish --provider="Scaffolding\ExceptionMonitor\ExceptionMonitorServiceProvider"
    ```
 
 3. Configure the package:
